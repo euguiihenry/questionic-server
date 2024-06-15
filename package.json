@@ -1,0 +1,25 @@
+{
+  "name": "questionic-server",
+  "version": "1.0.0",
+  "description": "questionic server",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euguiihenry/questionic-server.git"
+  },
+  "keywords": [
+    "['Question",
+    "App'",
+    "'Study",
+    "App']"
+  ],
+  "author": "Henry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/euguiihenry/questionic-server/issues"
+  },
+  "homepage": "https://github.com/euguiihenry/questionic-server#readme"
+}
