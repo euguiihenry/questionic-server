@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx src/main.ts --watch",
     "build": "tsup src",
-    "start": "node dist/server.js"
+    "start": "node dist/main.js"
   },
   "repository": {
     "type": "git",
