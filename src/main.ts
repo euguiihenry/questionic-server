@@ -55,11 +55,11 @@ app.use(cors());
 /* Inserting a new question into the DB:
 ================================================================================*/
     app.post('/post-question', async (req, res) => {
-        const { question_text, options, correct_answer, explanation, subject_id } = req.body;
+        const { question, options, correct_answer, explanation, subject_id } = req.body;
 
         const { data, error } = await supabase
             .from('questions')
-            .insert([{ question_text, options, correct_answer, explanation, subject_id }])
+            .insert([{ question, options, correct_answer, explanation, subject_id }])
             .select()
 
         if (error) {
